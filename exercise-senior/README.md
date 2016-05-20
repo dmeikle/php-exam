@@ -13,3 +13,10 @@ The table structure that would be queried contains the following columns:
 <li>isLocked</li>
 <li>numFailedAttempts   </li>
 </ul>
+
+
+
+PHP Skills Assessment - Senior Developer - Exercise 2
+=============================
+
+Write the pseudocode for an Event Dispatcher
