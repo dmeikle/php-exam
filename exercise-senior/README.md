@@ -48,14 +48,21 @@ Create a PHP Controller and Model that will perform the following functions:
 <li>listall()</li>
 </ul>
 
-Assume that the calls to the database are using a REST API (we'll call it RestConnection as a class) that uses the following format:
+Assume that the calls to the database are using a REST API (we'll call it 
+RestConnection as a class) that uses the following format:
 
-$conn->execute('POST','save',$params);
-$conn->execute('GET','list',$params);
-$conn->execute('GET','get',$params);
+$conn->execute('POST', 'save', $params);
+$conn->execute('GET', 'list', $params);
+$conn->execute('GET', 'get', $params);
 
-$params is the array of values to either save or used to query with.
+Where:
+the first parameter (POST and GET) are the query_type
+the second parameter (save, list, get) is the verb used by the REST API.
+the third parameter ($params) is the array of values you have created to pass
+to the REST API.
+
 The code is not intended to work - there is no class named RestConnection (please do not write one).
+The code is not expected to be completely bug free (you are unable to test it).
 The purpose of this exercise is only to demonstrate your familiarity with MVC
 inside of a PHP environment.
 
@@ -78,6 +85,7 @@ as if it was already written.
 
 You can use the provided angular/controller.js as a template if desired.
 
-The controller is not intended to work (the service doesn't exist) - the purpose of this exercise
+The controller is not intended to work (the service doesn't exist) and is not expected
+to be completely free of bugs - the purpose of this exercise
 is only to demonstrate your familiarity with AngularJS and how AngularJS shares
 values with the view.
