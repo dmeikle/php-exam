@@ -1,4 +1,4 @@
-PHP Skills Assessment - Senior Developer - Option 1
+PHP Senior Developer - Option 1
 =============================
 
 Write pseudocode for an authentication filter to be run at the beginning of a client request.
@@ -14,7 +14,7 @@ The table structure that would be queried contains the following columns:
 <li>numFailedAttempts</li>
 </ul>
 
-PHP Skills Assessment - Senior Developer - Option 2
+PHP Senior Developer - Option 2
 =============================
 
 Write pseudocode for an authorization filter to be run at the beginning of a client request.
@@ -33,12 +33,12 @@ The roles could be (for example):
 </ul>
 
 
-PHP Skills Assessment - Senior Developer - Option 3
+PHP Senior Developer - Option 3
 =============================
 
 Write the pseudocode for an Event Dispatcher
 
-PHP Skills Assessment - Senior Developer - Option 4
+PHP Senior Developer - Option 4
 =============================
 
 Create a PHP Controller and Model that will perform the following functions:
